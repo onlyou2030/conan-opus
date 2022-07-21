@@ -4,6 +4,7 @@ import shutil
 
 
 class OpusConan(ConanFile):
+    version = "1.3.1"
     name = "opus"
     description = "Opus is a totally open, royalty-free, highly versatile audio codec."
     topics = ("conan", "opus", "audio", "decoder", "decoding", "multimedia", "sound")
